@@ -3,3 +3,29 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+button {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  border: 1px solid gray;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: large;
+}
+
+button.primary {
+  background-color: rgb(69, 95, 238);
+  color: white;
+}
+
+button.primary:hover {
+  background-color: rgb(75, 101, 250);
+  color: white;
+  transition: all ease-in 0.1s;
+}
+
+button.stretch {
+  display: block;
+  width: 100%;
+}
