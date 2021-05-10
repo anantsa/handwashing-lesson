@@ -29,3 +29,13 @@ button.stretch {
   display: block;
   width: 100%;
 }
+
+button:disabled {
+  border-color: #a4a3a3;
+  background-color: rgb(197 197 197);
+  color: #878787;
+}
+button[disabled]:hover {
+  background-color: rgb(197 197 197);
+  color: #878787;
+}
